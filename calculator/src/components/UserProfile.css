@@ -1,0 +1,23 @@
+/* src/components/UserProfile.css */
+  .user-profile {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+  .avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+  .user-info {
+    flex: 1;
+}
+  .user-info h2 {
+    color: brown;
+}
+  .user-info p {
+    color: #888;
+}

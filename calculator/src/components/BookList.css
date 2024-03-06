@@ -1,0 +1,15 @@
+.list-book-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 300px;
+  flex-direction: column;
+  text-align: center;
+  border: 2px solid #d6b2b2;
+}
+
+.list-book-container li {
+  margin-bottom: 10px;
+  font-size: 18px;
+}

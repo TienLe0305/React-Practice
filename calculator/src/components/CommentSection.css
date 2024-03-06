@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comment-section {
+  height: 100px;
+  width: 250px;
+  background-color: rgb(176, 163, 189);
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 20px 0 20px;
+  margin-bottom: 10px;
+}
+
+.comment {
+  background-color: aqua;
+  margin-bottom: 3px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.comment-author {
+    font-weight: 900;
+}
