@@ -9,6 +9,7 @@ import Greeting from "./components/Greeting";
 import PersonList from "./components/PersonList/PersonList.js";
 import ProductCard from "./components/ProductCard/ProductCard.js";
 import ProductList from "./components/ProductList/ProductList.js";
+import QuizGame from "./components/QuizGame/QuizGame.js";
 import TodoList from "./components/TodoList/TodoList.js";
 import UserProfile from "./components/UserProfile/UserProfile.js";
 
@@ -92,6 +93,7 @@ function App() {
       <Clock />
       <TodoList />
       <CountdownTimer />
+      <QuizGame />
     </div>
   );
 }

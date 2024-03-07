@@ -1,0 +1,30 @@
+.question {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.question h3 {
+  color: #333;
+}
+
+.question ul {
+  list-style: none;
+  padding: 0;
+}
+
+.question li {
+  background-color: #eee;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.question li:hover {
+  background-color: #ddd;
+}
+
+.question li.selected {
+  background-color: #aaffaa;
+}
