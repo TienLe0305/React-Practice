@@ -1,6 +1,7 @@
 import Avatar from "./components/Avatar/Avatar.js";
 import BlogPost from "./components/BlogPost/BlogPost.js";
 import BookList from "./components/BookList/BookList.js";
+import Clock from "./components/Clock/Clock.js";
 import CommentSection from "./components/CommentSection/CommentSection.js";
 import Counter from "./components/Counter/Counter.js";
 import Greeting from "./components/Greeting";
@@ -86,6 +87,7 @@ function App() {
       <ProductList products={productsArray} />
       <CommentSection comments={commentsArray} />
       <Counter />
+      <Clock />
     </div>
   );
 }
