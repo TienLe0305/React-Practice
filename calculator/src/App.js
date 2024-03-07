@@ -1,12 +1,13 @@
-import Avatar from "./components/Avatar";
-import BlogPost from "./components/BlogPost";
-import BookList from "./components/BookList";
-import CommentSection from "./components/CommentSection";
+import Avatar from "./components/Avatar/Avatar.js";
+import BlogPost from "./components/BlogPost/BlogPost.js";
+import BookList from "./components/BookList/BookList.js";
+import CommentSection from "./components/CommentSection/CommentSection.js";
+import Counter from "./components/Counter/Counter.js";
 import Greeting from "./components/Greeting";
-import PersonList from "./components/PersonList";
-import ProductCard from "./components/ProductCard";
-import ProductList from "./components/ProductList";
-import UserProfile from "./components/UserProfile";
+import PersonList from "./components/PersonList/PersonList.js";
+import ProductCard from "./components/ProductCard/ProductCard.js";
+import ProductList from "./components/ProductList/ProductList.js";
+import UserProfile from "./components/UserProfile/UserProfile.js";
 
 function App() {
   const peopleList = ["Alice", "Bob", "Charlie", "David"];
@@ -84,6 +85,7 @@ function App() {
       <UserProfile userObject={userObject} />
       <ProductList products={productsArray} />
       <CommentSection comments={commentsArray} />
+      <Counter />
     </div>
   );
 }

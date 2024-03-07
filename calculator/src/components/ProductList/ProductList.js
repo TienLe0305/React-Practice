@@ -1,4 +1,4 @@
-import ProductCard2 from "./ProductCard2";
+import ProductCard2 from "../ProductCard2/ProductCard2.js";
 import "./ProductList.css";
 
 const ProductList = ({ products }) => {
