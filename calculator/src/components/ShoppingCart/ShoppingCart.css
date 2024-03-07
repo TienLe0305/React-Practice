@@ -1,0 +1,31 @@
+.shopping-cart {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.cart-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+}
+
+button {
+  padding: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #c82333;
+}
