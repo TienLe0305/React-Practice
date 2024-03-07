@@ -8,6 +8,7 @@ import Greeting from "./components/Greeting";
 import PersonList from "./components/PersonList/PersonList.js";
 import ProductCard from "./components/ProductCard/ProductCard.js";
 import ProductList from "./components/ProductList/ProductList.js";
+import TodoList from "./components/TodoList/TodoList.js";
 import UserProfile from "./components/UserProfile/UserProfile.js";
 
 function App() {
@@ -77,7 +78,7 @@ function App() {
 
   return (
     <div>
-      <Greeting name="Tien Le" />
+      {/* <Greeting name="Tien Le" />
       <PersonList peopleList={peopleList} />
       <ProductCard product={productInfo} />
       <Avatar imageUrl={avatarUrl} />
@@ -85,9 +86,10 @@ function App() {
       <BookList listBook={bookArray} />
       <UserProfile userObject={userObject} />
       <ProductList products={productsArray} />
-      <CommentSection comments={commentsArray} />
+      <CommentSection comments={commentsArray} /> */}
       <Counter />
       <Clock />
+      <TodoList />
     </div>
   );
 }
