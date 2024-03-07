@@ -3,6 +3,7 @@ import BlogPost from "./components/BlogPost/BlogPost.js";
 import BookList from "./components/BookList/BookList.js";
 import Clock from "./components/Clock/Clock.js";
 import CommentSection from "./components/CommentSection/CommentSection.js";
+import CountdownTimer from "./components/CountDownTimer/CountDownTimer.js";
 import Counter from "./components/Counter/Counter.js";
 import Greeting from "./components/Greeting";
 import PersonList from "./components/PersonList/PersonList.js";
@@ -90,6 +91,7 @@ function App() {
       <Counter />
       <Clock />
       <TodoList />
+      <CountdownTimer />
     </div>
   );
 }
