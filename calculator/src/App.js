@@ -7,6 +7,8 @@ import CommentSection from "./components/CommentSection/CommentSection.js";
 import CountdownTimer from "./components/CountDownTimer/CountDownTimer.js";
 import Counter from "./components/Counter/Counter.js";
 import Greeting from "./components/Greeting";
+import InputChange from "./components/InputChange/InputChange.js";
+import MouseHover from "./components/MouseHover/MouseHover.js";
 import PersonList from "./components/PersonList/PersonList.js";
 import ProductCard from "./components/ProductCard/ProductCard.js";
 import ProductList from "./components/ProductList/ProductList.js";
@@ -100,6 +102,8 @@ function App() {
       <ShoppingCart /> */}
       <ButtonClick />
       <ToggleButton />
+      <InputChange />
+      <MouseHover />
     </div>
   );
 }

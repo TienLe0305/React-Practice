@@ -1,0 +1,19 @@
+.input-change {
+  margin-top: 20px;
+}
+
+label {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+input {
+  padding: 8px;
+  font-size: 16px;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #007bff;
+}
