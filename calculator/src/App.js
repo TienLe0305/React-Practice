@@ -1,3 +1,4 @@
+import AutoComplete from "./components/AutoComplete/AutoComplete.js";
 import Avatar from "./components/Avatar/Avatar.js";
 import BlogPost from "./components/BlogPost/BlogPost.js";
 import BookList from "./components/BookList/BookList.js";
@@ -16,6 +17,7 @@ import PersonList from "./components/PersonList/PersonList.js";
 import ProductCard from "./components/ProductCard/ProductCard.js";
 import ProductList from "./components/ProductList/ProductList.js";
 import QuizGame from "./components/QuizGame/QuizGame.js";
+import ScrollEvent from "./components/ScrollEvent/ScrollEvent.js";
 import ShoppingCart from "./components/ShoppingCart/ShoppingCart.js";
 import TodoList from "./components/TodoList/TodoList.js";
 import ToggleButton from "./components/ToggleButton/ToggleButton.js";
@@ -110,6 +112,8 @@ function App() {
       <FormSubmission />
       <DragAndDrop />
       <PasswordStrength />
+      <ScrollEvent />
+      <AutoComplete />
     </div>
   );
 }

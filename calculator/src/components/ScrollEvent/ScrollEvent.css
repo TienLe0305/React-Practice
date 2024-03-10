@@ -1,0 +1,8 @@
+.scroll-event {
+  padding: 20px;
+}
+
+.content {
+  height: 1000px; /* Để có nội dung cuộn */
+  border: 1px solid #ddd;
+}
