@@ -6,6 +6,7 @@ import Clock from "./components/Clock/Clock.js";
 import CommentSection from "./components/CommentSection/CommentSection.js";
 import CountdownTimer from "./components/CountDownTimer/CountDownTimer.js";
 import Counter from "./components/Counter/Counter.js";
+import FormSubmission from "./components/FormSubmission/FormSubmission.js";
 import Greeting from "./components/Greeting";
 import InputChange from "./components/InputChange/InputChange.js";
 import MouseHover from "./components/MouseHover/MouseHover.js";
@@ -104,6 +105,7 @@ function App() {
       <ToggleButton />
       <InputChange />
       <MouseHover />
+      <FormSubmission />
     </div>
   );
 }
