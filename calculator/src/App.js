@@ -1,6 +1,7 @@
 import Avatar from "./components/Avatar/Avatar.js";
 import BlogPost from "./components/BlogPost/BlogPost.js";
 import BookList from "./components/BookList/BookList.js";
+import ButtonClick from "./components/ButtonClick/ButtonClick.js";
 import Clock from "./components/Clock/Clock.js";
 import CommentSection from "./components/CommentSection/CommentSection.js";
 import CountdownTimer from "./components/CountDownTimer/CountDownTimer.js";
@@ -12,6 +13,7 @@ import ProductList from "./components/ProductList/ProductList.js";
 import QuizGame from "./components/QuizGame/QuizGame.js";
 import ShoppingCart from "./components/ShoppingCart/ShoppingCart.js";
 import TodoList from "./components/TodoList/TodoList.js";
+import ToggleButton from "./components/ToggleButton/ToggleButton.js";
 import UserProfile from "./components/UserProfile/UserProfile.js";
 
 function App() {
@@ -90,12 +92,14 @@ function App() {
       <UserProfile userObject={userObject} />
       <ProductList products={productsArray} />
       <CommentSection comments={commentsArray} /> */}
-      <Counter />
+      {/* <Counter />
       <Clock />
       <TodoList />
       <CountdownTimer />
       <QuizGame />
-      <ShoppingCart />
+      <ShoppingCart /> */}
+      <ButtonClick />
+      <ToggleButton />
     </div>
   );
 }

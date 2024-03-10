@@ -1,0 +1,22 @@
+.toggle-button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.on {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.off {
+  background-color: #f44336;
+  color: #fff;
+}
