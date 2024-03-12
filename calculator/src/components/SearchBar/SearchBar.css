@@ -1,0 +1,15 @@
+.search-bar-container {
+  width: 400px;
+  padding: 15px;
+  border: 1px solid #d8d5d5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.search-bar-container input {
+  margin-bottom: 0;
+}

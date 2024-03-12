@@ -21,7 +21,9 @@ import ProductList from "./components/ProductList/ProductList.js";
 import QuizGame from "./components/QuizGame/QuizGame.js";
 import RegisterForm from "./components/RegisterForm/RegisterForm.js";
 import ScrollEvent from "./components/ScrollEvent/ScrollEvent.js";
+import SearchBar from "./components/SearchBar/SearchBar.js";
 import ShoppingCart from "./components/ShoppingCart/ShoppingCart.js";
+import TodoForm from "./components/TodoForm/TodoForm.js";
 import TodoList from "./components/TodoList/TodoList.js";
 import ToggleButton from "./components/ToggleButton/ToggleButton.js";
 import UserProfile from "./components/UserProfile/UserProfile.js";
@@ -120,6 +122,8 @@ function App() {
       <BasicForm />
       <LoginForm />
       <RegisterForm />
+      <SearchBar />
+      <TodoForm />
     </div>
   );
 }
