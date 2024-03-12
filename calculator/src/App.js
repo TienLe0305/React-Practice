@@ -12,12 +12,14 @@ import DragAndDrop from "./components/DragAndDrop/DragAndDrop.js";
 import FormSubmission from "./components/FormSubmission/FormSubmission.js";
 import Greeting from "./components/Greeting";
 import InputChange from "./components/InputChange/InputChange.js";
+import LoginForm from "./components/LoginForm/LoginForm.js";
 import MouseHover from "./components/MouseHover/MouseHover.js";
 import PasswordStrength from "./components/PasswordStrengthChecker/PasswordStrength.js";
 import PersonList from "./components/PersonList/PersonList.js";
 import ProductCard from "./components/ProductCard/ProductCard.js";
 import ProductList from "./components/ProductList/ProductList.js";
 import QuizGame from "./components/QuizGame/QuizGame.js";
+import RegisterForm from "./components/RegisterForm/RegisterForm.js";
 import ScrollEvent from "./components/ScrollEvent/ScrollEvent.js";
 import ShoppingCart from "./components/ShoppingCart/ShoppingCart.js";
 import TodoList from "./components/TodoList/TodoList.js";
@@ -116,6 +118,8 @@ function App() {
       <ScrollEvent />
       <AutoComplete /> */}
       <BasicForm />
+      <LoginForm />
+      <RegisterForm />
     </div>
   );
 }
