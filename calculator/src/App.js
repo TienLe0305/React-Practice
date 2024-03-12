@@ -1,5 +1,6 @@
 import AutoComplete from "./components/AutoComplete/AutoComplete.js";
 import Avatar from "./components/Avatar/Avatar.js";
+import BasicForm from "./components/BasicForm/BasicForm.js";
 import BlogPost from "./components/BlogPost/BlogPost.js";
 import BookList from "./components/BookList/BookList.js";
 import ButtonClick from "./components/ButtonClick/ButtonClick.js";
@@ -105,7 +106,7 @@ function App() {
       <CountdownTimer />
       <QuizGame />
       <ShoppingCart /> */}
-      <ButtonClick />
+      {/* <ButtonClick />
       <ToggleButton />
       <InputChange />
       <MouseHover />
@@ -113,7 +114,8 @@ function App() {
       <DragAndDrop />
       <PasswordStrength />
       <ScrollEvent />
-      <AutoComplete />
+      <AutoComplete /> */}
+      <BasicForm />
     </div>
   );
 }
