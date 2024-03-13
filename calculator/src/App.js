@@ -1,32 +1,36 @@
-import AutoComplete from "./components/AutoComplete/AutoComplete.js";
-import Avatar from "./components/Avatar/Avatar.js";
-import BasicForm from "./components/BasicForm/BasicForm.js";
-import BlogPost from "./components/BlogPost/BlogPost.js";
-import BookList from "./components/BookList/BookList.js";
-import ButtonClick from "./components/ButtonClick/ButtonClick.js";
-import Clock from "./components/Clock/Clock.js";
-import CommentSection from "./components/CommentSection/CommentSection.js";
-import CountdownTimer from "./components/CountDownTimer/CountDownTimer.js";
-import Counter from "./components/Counter/Counter.js";
-import DragAndDrop from "./components/DragAndDrop/DragAndDrop.js";
-import FormSubmission from "./components/FormSubmission/FormSubmission.js";
-import Greeting from "./components/Greeting";
-import InputChange from "./components/InputChange/InputChange.js";
-import LoginForm from "./components/LoginForm/LoginForm.js";
-import MouseHover from "./components/MouseHover/MouseHover.js";
-import PasswordStrength from "./components/PasswordStrengthChecker/PasswordStrength.js";
-import PersonList from "./components/PersonList/PersonList.js";
-import ProductCard from "./components/ProductCard/ProductCard.js";
-import ProductList from "./components/ProductList/ProductList.js";
-import QuizGame from "./components/QuizGame/QuizGame.js";
-import RegisterForm from "./components/RegisterForm/RegisterForm.js";
-import ScrollEvent from "./components/ScrollEvent/ScrollEvent.js";
-import SearchBar from "./components/SearchBar/SearchBar.js";
-import ShoppingCart from "./components/ShoppingCart/ShoppingCart.js";
-import TodoForm from "./components/TodoForm/TodoForm.js";
-import TodoList from "./components/TodoList/TodoList.js";
-import ToggleButton from "./components/ToggleButton/ToggleButton.js";
-import UserProfile from "./components/UserProfile/UserProfile.js";
+// import AutoComplete from "./components/AutoComplete/AutoComplete.js";
+// import Avatar from "./components/Avatar/Avatar.js";
+// import BasicForm from "./components/BasicForm/BasicForm.js";
+// import BlogPost from "./components/BlogPost/BlogPost.js";
+// import BookList from "./components/BookList/BookList.js";
+// import ButtonClick from "./components/ButtonClick/ButtonClick.js";
+import CheckoutPage from "./components/CheckoutPage.js";
+import NavigationPage from "./components/Dashboard.js";
+// import Clock from "./components/Clock/Clock.js";
+// import CommentSection from "./components/CommentSection/CommentSection.js";
+// import CountdownTimer from "./components/CountDownTimer/CountDownTimer.js";
+// import Counter from "./components/Counter/Counter.js";
+// import DragAndDrop from "./components/DragAndDrop/DragAndDrop.js";
+// import FormSubmission from "./components/FormSubmission/FormSubmission.js";
+// import Greeting from "./components/Greeting";
+// import InputChange from "./components/InputChange/InputChange.js";
+// import LoginForm from "./components/LoginForm/LoginForm.js";
+// import MouseHover from "./components/MouseHover/MouseHover.js";
+// import PasswordStrength from "./components/PasswordStrengthChecker/PasswordStrength.js";
+// import PersonList from "./components/PersonList/PersonList.js";
+// import ProductCard from "./components/ProductCard/ProductCard.js";
+// import ProductList from "./components/ProductList/ProductList.js";
+// import QuizGame from "./components/QuizGame/QuizGame.js";
+// import RegisterForm from "./components/RegisterForm/RegisterForm.js";
+// import ScrollEvent from "./components/ScrollEvent/ScrollEvent.js";
+// import SearchBar from "./components/SearchBar/SearchBar.js";
+// import ShoppingCart from "./components/ShoppingCart/ShoppingCart.js";
+// import TodoForm from "./components/TodoForm/TodoForm.js";
+// import TodoList from "./components/TodoList/TodoList.js";
+// import ToggleButton from "./components/ToggleButton/ToggleButton.js";
+// import ToggleSwitch from "./components/ToggleSwitch.js";
+// import UserProfile from "./components/UserProfile/UserProfile.js";
+import "./index.css";
 
 function App() {
   const peopleList = ["Alice", "Bob", "Charlie", "David"];
@@ -119,11 +123,14 @@ function App() {
       <PasswordStrength />
       <ScrollEvent />
       <AutoComplete /> */}
-      <BasicForm />
+      {/* <BasicForm />
       <LoginForm />
       <RegisterForm />
       <SearchBar />
       <TodoForm />
+      <ToggleSwitch /> */}
+      <CheckoutPage />
+      <NavigationPage />
     </div>
   );
 }
