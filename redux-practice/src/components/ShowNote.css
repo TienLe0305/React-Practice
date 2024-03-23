@@ -1,0 +1,9 @@
+textarea {
+  background-color: rgba(0, 0, 0, 0);
+  border-width: 0;
+  overflow: hidden;
+  resize: none;
+}
+textarea:focus {
+  outline: none;
+}
