@@ -6,6 +6,7 @@
 // import ButtonClick from "./components/ButtonClick/ButtonClick.js";
 import CheckoutPage from "./components/CheckoutPage.js";
 import NavigationPage from "./components/Dashboard.js";
+import DynamicForm from "./components/DynamicForm/DynamicForm.js";
 import ImageCarousel from "./components/ImageCarousel/ImageCarousel.js";
 // import Clock from "./components/Clock/Clock.js";
 // import CommentSection from "./components/CommentSection/CommentSection.js";
@@ -130,9 +131,11 @@ function App() {
       <SearchBar />
       <TodoForm />
       <ToggleSwitch /> */}
-      <CheckoutPage />
-      <NavigationPage />
-      <ImageCarousel />
+      {/* <CheckoutPage />
+      <NavigationPage /> */}
+      {/* <ImageCarousel /> */}
+      <h1>React Dynamic Form Fields Exercise</h1>
+      <DynamicForm />
     </div>
   );
 }
