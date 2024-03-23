@@ -6,6 +6,7 @@
 // import ButtonClick from "./components/ButtonClick/ButtonClick.js";
 import CheckoutPage from "./components/CheckoutPage.js";
 import NavigationPage from "./components/Dashboard.js";
+import ImageCarousel from "./components/ImageCarousel/ImageCarousel.js";
 // import Clock from "./components/Clock/Clock.js";
 // import CommentSection from "./components/CommentSection/CommentSection.js";
 // import CountdownTimer from "./components/CountDownTimer/CountDownTimer.js";
@@ -131,6 +132,7 @@ function App() {
       <ToggleSwitch /> */}
       <CheckoutPage />
       <NavigationPage />
+      <ImageCarousel />
     </div>
   );
 }
